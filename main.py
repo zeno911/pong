@@ -1,16 +1,24 @@
-# This is a sample Python script.
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+from turtle import Screen, Turtle
+from paddle import Paddle
+s = Screen()
+s.tracer(0)
+paddle = Turtle()
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+game_on = True
+while game_on:
+    s.update()
+
+
+rp = Paddle((500,0))
+lp = Paddle((-500,0))
+
+s.update()
+
+
+s.exitonclick()
+
+
+
