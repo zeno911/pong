@@ -25,7 +25,7 @@ s.onkey(lp.down, 's')
 
 game_on = True
 while game_on:
-    time.sleep(0.02)
+    time.sleep(b.bs)
     s.update()
     b.move()
     if b.ycor() > 400 or b.ycor() <-400 :

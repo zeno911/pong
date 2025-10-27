@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea36f07f-0a64-43d2-9c80-afe1979dbf6f" name="Changes" comment="ds">
-      <change afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/score.py" afterDir="false" />
+    <list default="true" id="ea36f07f-0a64-43d2-9c80-afe1979dbf6f" name="Changes" comment="score">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paddle.py" beforeDir="false" afterPath="$PROJECT_DIR$/paddle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.ball.executor": "Run",
     "Python.main.executor": "Run",
     "Python.score.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -108,12 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1761540963377</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="score">
+      <option name="closed" value="true" />
+      <created>1761549291419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761549291419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rty" />
     <MESSAGE value="ds" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds" />
+    <MESSAGE value="score" />
+    <option name="LAST_COMMIT_MESSAGE" value="score" />
   </component>
 </project>
